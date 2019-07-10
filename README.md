@@ -32,6 +32,7 @@ Main steps involved in this case study:
     - XGBoost
     
 Important insights obtained were:
+
 • Around 70% people belong to private WorkClass.
 
 • Majority of the people i.e. around 32% have an education atleast until HS-Grad while around 22% and 16% have gone to some college and have a bachelors degree respectively.
@@ -45,6 +46,24 @@ Important insights obtained were:
 • Around 67% are Male and 33% are Female.
 
 • A whooping 90% people are from the United States.
+
+• People in the self-emp-inc and Federal-gov WorkClass have income >50K. It doesn't quite match our assumption made in the hypothesis generation.
+
+• People having Doctorate, Prof-school and Masters earn higher income as compared to other categories and also, it completely matches our assumption.
+
+• Married-AF-spouse and Married-civ-spouse earn higher income as compared to other MaritalStatus.
+
+• People having Exec-managerial and Prof-specialty as their occupation earn more which somehow matches our assumption as well.
+
+• Husband and Wife are likely to earn more than other categories in Relationship variable.
+
+• Male tend to dominate over Female in earning an income of 50>K.
+
+Apart from this, the case study focuses perfectly on dealing with issues such as Skewness in a variable, overfitting, multicollinearity, ouliers as well as transformations.
+
+Three algorithms namely Logistic Regression, Random Forest and Extreme Gradient Boosting (XGBoost) have been implemented in this case study. XGBoost has been proven to give highest F1-score among the three and hence it's parameters have been hypertuned.
+
+An overall F1-Score of almost 90% was obtained.
 
 
 
