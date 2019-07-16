@@ -57,7 +57,7 @@ Important insights obtained were:
 
 • Husband and Wife are likely to earn more than other categories in Relationship variable.
 
-• Male tend to dominate over Female in earning an income of 50>K.
+• Male tend to dominate over Female in earning an income of >50K.
 
 Apart from this, the case study focuses perfectly on dealing with issues such as Skewness in a variable, overfitting, multicollinearity, ouliers as well as transformations.
 
